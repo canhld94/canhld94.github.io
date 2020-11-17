@@ -1,0 +1,16 @@
+.repost-content {
+  margin-left: 0;
+  list-style: none;
+  
+  .repost-item {
+    .title {
+      font-size: 1.5em;
+      margin-bottom: .5em;
+    }
+
+    .desc {
+    	color: $grey-color;
+    	font-size: .8em;
+    }
+  }
+}

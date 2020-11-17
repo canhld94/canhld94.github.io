@@ -1,8 +1,30 @@
 ---
-layout: default
-title: Hank Quinlan, Horrible Cop
+layout: page
+title: Posts
+desc: _(:3」&#x2220;)_
+order: 1
 ---
-<div class="blurb">
-	<h1>Hi there</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+
+<ul class="post-list item-list">
+  {% for post in site.posts %}
+  <li class="item">
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+
+      <div class="post-title">{{ post.title }}</div>
+      <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncate: site.max_excerpt_len }}
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+<div class="post-tags">Tags: 
+  {% for tag in site.tags %}
+  <span>{{ tag[0] }}</span>
+  {% endfor %}
 </div>

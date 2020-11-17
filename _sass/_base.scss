@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+* Basic styling
+*/
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+
+
+/**
+* Set `margin-bottom` to maintain vertical rhythm
+*/
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+pre {
+    margin-top: $spacing-unit / 2;
+}
+
+/**
+* Images
+*/
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: $default-border-radius;
+    border: .3em solid $grey-color-light;
+}
+
+
+/**
+* Figures
+*/
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+* Lists
+*/
+ul, ol {
+    margin-left: 1em;
+}
+
+li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+* Headings
+*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+
+
+
+/**
+* Links
+*/
+a {
+    color: $brand-color;
+    text-decoration: underline;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: lighten($brand-color, 15%);
+        text-decoration: none;
+    }
+}
+
+
+
+/**
+* Blockquotes
+*/
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    letter-spacing: -1px;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+/**
+* Table
+*/
+
+table {
+    border-collapse: separate;
+    border-radius: $default-border-radius;
+    border: .3em solid $grey-color-light;
+
+    tr:first-child th,
+    tr:first-child td {
+        border: 0;
+    }
+
+    th, td {
+        padding: .3em .5em;
+        border-top: solid 1px #dfdfdf;
+    }
+}
+
+/**
+* Clearfix
+*/
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+* Icons
+*/
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+/**
+* Container
+*/
+.container {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    margin-right: auto;
+    margin-left: auto;
+
+    @extend .clearfix;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 850px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 850px;
+    }
+}
+
+.card {
+    border-radius: $default-border-radius;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+    background-color: #fff;
+    padding: $spacing-unit;
+}
+
+.link {
+    &,
+    &:visited {
+        display: block;
+        text-decoration: none;
+        color: #333;
+        -webkit-transition: .2s color ease-in-out;
+        transition: .2s color ease-in-out;
+    }
+
+    &:hover {
+        color: $brand-color;
+    }
+}
+
+.item-list {
+    margin-left: 0;
+    list-style: none;
+    padding-left: 0;
+
+    .item {
+        @extend .card;
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.page-heading {
+    text-align: center;
+    .title {
+      font-size: 2em;
+      font-variant: small-caps;
+  }
+
+  .desc {
+      color: #aaa;
+  }
+  margin-bottom: $spacing-unit/2;
+}

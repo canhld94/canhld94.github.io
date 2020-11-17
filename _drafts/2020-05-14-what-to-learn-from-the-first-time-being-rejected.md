@@ -1,0 +1,23 @@
+---
+layout: post
+title: "What to learn from the first time being rejected"
+date: 2020-05-14
+tags: "failed"
+---
+
+Bài viết này nói về quá trình đăng ký và phỏng vấn của mình ở Worldquant. Dù cả quá trình diễn ra trong một khoảng thời gian tương đối ngắn, mình học được những bài học từ lần thất bại này.
+
+Trước hết, vì sao lại là Worldquant? Thứ nhất là vì họ trả lương rất cao. Thứ hai, là vì mình có hứng thú với việc đầu tư vào thị trường chứng khoán, giống như một Shark nào đó đã nói, muốn giàu thì không thể chờ vào đồng lương được mà tiền phải đẻ ra tiền. Vị trí mình apply ở Worldquant là Software Investment Researcher, công việc là dựa vào số liệu để xây dựng mô hình dự đoán thị trường và đưa ra các chiến lược đầu tư. Chính vì cảm thấy rất thú vị, vậy nên công ty đầu tiên mà mình lựa chọn là Worldquant.
+
+Tuy nhiên, thời điểm apply lại không hề hợp lý một chút nào, và điều này có lẽ cũng đóng một vai trò rất lớn trong việc vì sao mình lại trượt sớm như vậy. Lúc này mình đang đợi để làm visa sang lại Hàn Quốc, vì gì thì gì cũng đã ký hợp đồng thuê nhà một năm rồi. Vì vậy, quyết định apply qua Linkedin của mình khá là khó giải thích. Mình vừa muốn nghiêm túc, lại vừa như chỉ muốn thử xem khả năng của mình ở trong thị trường lao động đứng ở đâu. Có một điều khá bất ngờ là bên Worldquant phản hồi lại khá nhanh. Sau đó hai ngày mình làm một bài online assessment, hai ngày sau thì phỏng vấn online. Mình bị loại ở vòng phỏng vấn online.
+
+Các bài học rút ra trong quá trình chuẩn bị:
+
+Phải xác định rõ mình mong muốn điều gì và thật nghiêm túc với điều đó. The biggest mistake I made was I applied when I wasn\'t ready for it. At that time, I have no idea how it was in the interview with Wordquant. After some research on Glassdoor, it turn out that their interview highly focuses on probability, statistic, and puzzle (or brain teaser). I used to be quite good in Math, but not anymore. Solving puzzle problems with time limited has never been my strength. But anyway, I started looking at some sample questions and try to tackle it. And this time, the next mistake comes: I tried to memorize the answers instead of actually solving them. There were questions that I could figure out the solution (or the underlying ideas) in just minutes, but there are difficult ones that just blow my mind. I created a bias myself on my thoughts, that those puzzles are usually difficult and there is no way to solve it in few minutes, so just memorize them to answer when you see it. Anyway, this strategy helped me to pass the online assessment. But it was against me in the online interview. I was asked some question, which was not that hard, but I couldn\'t come with ideas to do it. Less practicing make me hard to think about different strategies as well as brave, creative solution. In conclusion, if you are to apply for a position, be sure that you studied well and be ready for it. Take at least one month to study for you interview.
+Don't waste your time, you don\'t have much time as you think. I used to be quite good at Math, but I\'m not anymore. Why does this happen? When I get to university, I think I have much time, so I just enjoy it with my girl friends. There were fundamental courses in the first two years, but I didn\'t study it well and therefore, I have many gaps in the basic background for a researcher. I had chance to make it again when I come to KAIST, but again, I though I still have time, and spent the wholes first and half year glorying my victory (in other words, masturbating). Even when I finished my thesis, I still think I had time. Do not consider anymore, deep dive in a topic you want, and get your hand dirty. You must know what make you happy, and do your best to make it.
+Being humble, and be honest with yourself. You should be honest with other, and to do that, you must first be honest with yourself. I had many gaps in my background as well as my skills, but I thought graduating from an accredited school may neglect it. In the end, if you cannot show your values during the interview, they won\'t choose you.
+
+Những bài học trong và sau khi cuộc phỏng vấn kết thúc:
+
+Again, be honest with yourself and with other. If there\'s something you don\'t know, say “I don\'t know”. Don\'t try to come up with an answer and can\'t proceed with the follow up questions.
+Don\'t try to be smart, and focus on your question. If they ask about A, then just tell about A concisely and precisely. Don\'t over explain by tell them a long story. That is not only time-waisting but also bring negative impression to the interviewer (that you are just a big-mouth).

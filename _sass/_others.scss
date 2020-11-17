@@ -1,0 +1,29 @@
+.others {
+  .title {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+  }
+
+  .talents {
+    .name {
+      font-size: 1.5em;
+    }
+
+    .entry {
+      margin: .5em 0;
+    }
+
+    .desc {
+      color: $grey-color;
+    }
+  }
+
+  .wisdoms {
+    .by {
+      color: #aaa;
+    }
+    .text {
+      padding-left: $spacing-unit;
+    }
+  }
+}
