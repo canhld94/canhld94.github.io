@@ -9,7 +9,7 @@ I'm not familiar with web development, therefore, I borrow most of code from [Ri
 ```
 _data/
 _drafts/
-images/
+assets/
 _posts/
 ```
 
