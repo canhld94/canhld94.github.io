@@ -26,6 +26,7 @@ leetcode_username: canhld94
 markdown: kramdown
 kramdown:
   hard_wrap: true
+highlighter: rouge
 
 excerpt_separator: "<!-- more -->"
 
