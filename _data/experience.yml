@@ -1,0 +1,28 @@
+# Jobs
+# VP of Global Communications
+- company: Korea Advanced Institute of Science and Technology
+  position: Research Scientist
+  duration: June, 2020 &mdash; Present
+  summary: I work on developing a deep learning serving platform on heterogeneous hardware
+  items:
+    - Design and train object-detection models on satellite imagery datasets -- Tensorflow (Python)
+    - Develop model servers that serve object detection models and run on heterogeneous back-end devices (CPU, GPU, or FPGA) -- Socket, HTTP & GRPC, C++, multithreading, deep learning inference
+
+# Director of Digital Stratgy
+- company: Korea Advanced Institute of Science and Technology
+  position: Research Assistant
+  duration:  Feb, 2018 &mdash; Feb, 2020
+  summary: I did my research at Network and Computing Lab, Department of Electrical Engineering. 
+  items:
+    - Implement 2-D convolution kernel on GPU and FPGA to accelerate SIFT algorithm -- C++, OpenCL, CUDA
+    - Develop and implement solution to enable accelerator devices (FPGA, GPU) in virtual machine and container environment -- HDL, C++, C, Docker
+
+
+# Communications Coordinator
+- company: Viettel Corporation
+  position: Algorithm Engineer
+  duration:   July, 2016  &mdash; Feb, 2018
+  summary: I was an intern from July 2016 to August 2017 and became an employee from Sept 2017. I worked at the Viettel Network Technology Center (now Viettel R&D Center). 
+  items: 
+    - Design and implement machine learning model to estimate and compensate the non-linearity of power amplifier in radio unit -- C, Matlab, FPGA
+    - The model reduces the non-linearity of the power amplifier by 2 order of magnitudes (20dBm)
