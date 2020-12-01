@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Graph advanced algorithm - Disjoint Set"
-date: 2020-10-15
+date: 2020-10-16
 tags: "algorithm graph union-find C++"
 ---
 
