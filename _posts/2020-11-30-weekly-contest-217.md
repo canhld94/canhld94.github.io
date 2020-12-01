@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Leetcode weekly contest 217 review"
-date: 2020-10-15
+date: 2020-11-29
 tags: "C++ algorithm leetcode competitive-programming"
 ---
 
