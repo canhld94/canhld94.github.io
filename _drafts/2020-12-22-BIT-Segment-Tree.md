@@ -25,6 +25,29 @@ If we store the plain array, then we can do `update` int `O(1)` but `sum` take `
 
 In the above example, the top row (0-th row) is the plain array and the below rows is how we store it in BIT. Start with index `1`, in the first row we will store the sum of sub-array with length `2^i` starting with `1`. Then in the second row, with the same rules, we fill all the gaps in the first row. We repeat the process until all position is filled. Now, let compute `sum(11)`. As we have, `11 = 8 + 2 + 1 = 2^3 + 2^1 + 2^0`, the sum of the first element (backward) is `11`, then the sum of the next two elements is `19`, then the last `8` elements is `36`, so `sum(11) = 11 + 19 + 36 = 66`. So what if we see the array as a tree, we start at `11` and then keep going `up` then `left`: that's `p -= p&-p`. The update is similar, but we will go `right` and `up`, which is `p += p&-p`.
 
+The pattern I usually use for Leetcode contest is as bellow.
+
+```cpp
+class BIT {
+  public:
+  BIT(int n) {
+    arr = vector<int>(n+1);
+  }
+  // update index p 
+  void update(int p, int x) {
+    while (p && p < arr.size()) arr[p] += x, p += p&-p;
+  }
+  // get sum from 1 to p
+  int getSum(int p) {
+    int ret = 0;
+    while (p) ret += arr[p], p -= p&-p;
+    return ret;
+  }
+  private:
+  vector<int> arr;
+}
+```
+
 # Segment Tree
 
 
