@@ -3,17 +3,17 @@
 - company: Ahrefs
   position: Software Engineer
   duration: July 2023 &mdash;
-  summary: I'm the foundation engineer of [ClickHouse](https://github.com/ClickHouse/ClickHouse) team at Ahrefs, focusing 100% my time on building data infrastructure. I'm responsible for developing and operating ClickHouse on > 1000 machines, holding > 100PB / 2EiB of compressed / uncompressed data, powering all core services in Ahrefs. At the same time, I've been contributing back to ClickHouse, with PRs in almost all major releases since 2022. In the long term, our vision is to build a data platform that can scale, easy to use and operation, and enable the business to create more exciting features in Ahrefs products.
+  summary: I'm the foundation engineer of ClickHouse team at Ahrefs, focusing 100% my time on building data infrastructure. I'm responsible for developing and operating ClickHouse on > 1000 machines, holding > 100PB / 2EiB of compressed / uncompressed data, powering all core services in Ahrefs. At the same time, I've been contributing back to ClickHouse, with PRs in almost all major releases since 2022. In the long term, our vision is to build a data platform that can scale, easy to use and operation, and enable the business to create more exciting features in Ahrefs products.
 
 - company: ByteDance Singapore
   position: Software Engineer
   duration: Mar, 2021 &mdash; Jun 2023 
-  summary: I'm with the Data Platform team to build the next generation analytics DBMS which is used in all ByteDance's products. Our DBMS hosts EiB of data, powering real time and offline analytics, BI, AB testing, and recommendation... across nearly all departments in ByteDance. In Mar 2023, I was promoted to Senior Software Engineer for my contribution to the project. Part of our work was opensourced at https://github.com/ByConity/ByConity.
+  summary: I'm with the Data Platform team to build the next generation analytics DBMS which is used in all ByteDance's products. Our DBMS hosts EiB of data, powering real time and offline analytics, BI, AB testing, and recommendation... across nearly all departments in ByteDance. In Mar 2023, I was promoted to Senior Software Engineer for my contribution to the project. Part of our work was opensourced as ByConity project.
 
 - company: Korea Advanced Institute of Science and Technology
   position: Research Scientist
   duration: June, 2020 &mdash; Dec 2020
-  summary: I worked on developing a deep learning serving platform on heterogeneous hardware
+  summary: I worked on developing a deep learning serving platform on heterogeneous hardware.
 
 - company: Korea Advanced Institute of Science and Technology
   position: Research Assistant

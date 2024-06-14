@@ -1,0 +1,8 @@
+- name: ClickHouse
+  url: https://github.com/ClickHouse/ClickHouse
+  role: Contributor
+
+- name: ByConity
+  url: https://github.com/ByConity/ByConity
+  rele: Leading engineer, contributor
+ 
