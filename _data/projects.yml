@@ -1,8 +1,9 @@
-- name: ClickHouse
+- project: ClickHouse
   url: https://github.com/ClickHouse/ClickHouse
   role: Contributor
+  description: ClickHouse is a popular a real-time analytics DBMS. I've been contributor since 2022 with PRs in most major releases.
 
-- name: ByConity
+- project: ByConity
   url: https://github.com/ByConity/ByConity
   rele: Leading engineer, contributor
- 
+  description: ByConity is an open source cloud data warehouse. Derived from ClickHouse, ByConity introduces many inovations (compute-storage separation architecture, a state-of-the-art query optimizer...). I'd been working with the project since the early days and led the effort to opensource the project.
