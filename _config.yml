@@ -8,7 +8,6 @@
 # Site settings
 title: tkkbkn's blog
 email: canhld94@gmail.com
-cv: https://www.dropbox.com/s/uu074t2o1lgkf8l/canh_cv.pdf?dl=0
 wordpress: https://tkkbkn.wordpress.com/
 description: > # this means to ignore newlines until "baseurl:"
   Khi còn nhỏ, chúng ta nghĩ cần phải dũng cảm để chiến thắng người khác. Khi trưởng thành, chúng ta hiểu ra cần dũng cảm để chiến thắng chính bản thân mình. Đây là blog của một người dũng cảm. 
@@ -49,13 +48,11 @@ resume_title:                   "Software Engineer"
 resume_contact_email:           "canhld94@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "010-9872-8980"
-resume_contact_address:         "E3-2, #3211, KAIST, Daejeon, Korea"
+resume_contact_telephone:       "+84-9182-4071"
+resume_contact_address:         "Singapore"
 
-resume_header_contact_info:     "E3-2, #3211, KAIST, Daejeon, Korea • 010-9872-8980 • canhld94@gmail.com"
+resume_header_contact_info:     "Singapore • +84-9182-4071 • canhld94@gmail.com"
 display_header_contact_info:    "false"
-
-resume_header_intro: "<p>Hi, I am Duc Canh Le. I build software </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -81,7 +78,7 @@ resume_social_links:
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/canhld/"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "http://canhld94.github.io"
   # resume_medium_url:            "https://medium.com/@jglovier"
