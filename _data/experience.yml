@@ -1,6 +1,6 @@
 # Jobs
 
-- company: Ahrefs Singapore
+- company: Ahrefs
   position: Software Engineer
   duration: July 2023 &mdash;
   summary:
@@ -18,7 +18,7 @@
     And many more bug fixes and general performance optimization that help ClickHouse serving hundred thousands queries per minute while being stable and reliable. The customer-facing p99 query latency is close to 1 seconds and the downtime rate is minimal even during upgrading or network unstable. We don't officially record the cluster availability yet, but the last time we have a non-minor downtime is when <a href="https://www.forbes.com/sites/zacharyfolk/2024/03/04/four-fiber-optic-cables-damaged-in-red-sea-heres-what-we-know/">four optic cables were cut in RedSea</a>. <p />
     Beside ClickHouse, I also spend time to explore various exciting opensource projects (RocksDB, Ceph, MySQL...). In the long term, our vision is to build a data platform that can scale, easy to use and operate, and enable the business to create more exciting features in Ahrefs products. We also thrilled to contribute back our work to the community.<p />
 
-- company: ByteDance Singapore
+- company: ByteDance
   position: Software Engineer
   duration: Mar, 2021 &mdash; Jun 2023
   summary: I'm with the Data Platform team to build the next generation analytics DBMS which is used in all ByteDance's products. Our DBMS hosts EiB of data, powering real time and offline analytics, BI, AB testing, and recommendation... across nearly all departments in ByteDance. In Mar 2023, I was promoted to Senior Software Engineer for my contributions to the project. Part of our work was opensourced as ByConity project.
